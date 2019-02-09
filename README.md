@@ -1,4 +1,8 @@
-# Adonis API application
+# adonis-graphql-apollo
+
+Projeto de estudo com base no link https://scotch.io/tutorials/build-a-graphql-server-with-apollo-server-and-adonisjs.
+
+## Adonis API application
 
 This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
 
@@ -8,7 +12,7 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 4. Lucid ORM
 5. Migrations and seeds
 
-## Setup
+### Setup
 
 Use the adonis command to install the blueprint
 
@@ -18,8 +22,7 @@ adonis new yardstick --api-only
 
 or manually clone the repo and then run `npm install`.
 
-
-### Migrations
+#### Migrations
 
 Run the following command to run startup migrations.
 
