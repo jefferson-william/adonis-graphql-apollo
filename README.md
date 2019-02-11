@@ -9,6 +9,7 @@ Alterações foram feitas para que este projeto diferentemente do link acima, ro
 Rode para instalar os containers e levantar tudo que necessário para o projeto:
 
 ```bash
+cp .env.example .env # caso você não tenha um .env
 . start.sh # ou . restart.sh
 ```
 

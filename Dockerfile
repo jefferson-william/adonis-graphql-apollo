@@ -8,6 +8,8 @@ ADD package.json /app
 
 RUN npm install --silent
 
+RUN npm i -g @adonisjs/cli
+
 COPY . /app
 
 CMD ["npm", "start"]
